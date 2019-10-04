@@ -5,22 +5,17 @@
  */
 
 body {
-  padding-top: 56px;
 
+}
+.bg-light {
+  background-color: #666666!important;
 }
 .form-group label {
   color:white;
   font-size:14px;
 
 }
-.row.display-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-.row.display-flex > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-}
+
 .form-group input {
   background-color: black;
   color:white;
@@ -34,7 +29,9 @@ body {
 .form-group input::placeholder {
   color:white;
 }
-
+.navbar {
+  padding:10px!important;
+}
 .form-control {
   border-radius: 3px!important;
   border:none;
@@ -52,39 +49,25 @@ h3 {
   font-size: 30px;
   text-transform: uppercase;
 }
-.navbar-toggler {
-  border:0px!important;
-}
-.navbar-toggler:focus {
-  border:0px!important;
-}
-
-
-.portfolio-item {
-  margin-bottom: 30px;
-}
-
-
-.navbar-nav {
-  width: 100%;
-  text-align: center;
-  > li {
-    float: none;
-    display: inline-block;
-  }
-}
-.center {
-  margin: 0 auto;
-}
-
-.fixed-top {
-  background-color:#A33416;
-}
 
 .nav-link {
-  color:#333!important;
+  color:white!important;
   font-weight: 500!important;
   transition: all 0.5s;
+}
+#top {
+  background-color: #d8d8d8;
+  padding:0px;
+  border-bottom: 2px solid #333;
+}
+#top a {
+  color:black;
+  transition: all 1s;
+  text-decoration: none;
+}
+#top a:hover{
+  color: #00704A;
+  font-weight: 500;
 }
 #contact-link {
   color:white!important;
@@ -93,22 +76,16 @@ h3 {
   color:#ffd203!important;
 }
 
-@media screen and (min-width: 992px){
-  .nav-link, .nav-item {
-    display: inline;
-  }
-  .fixed-top {
-    height:70px;
-  }
-}
 .card-img-top {
   border-radius: 0px!important
 }
 #title {
   font-family: 'Cabin Sketch', cursive;
-  font-size:4rem;
-  color: #e5e5e5;
-  letter-spacing: -3px;
+  font-size:3em;
+  font-weight: 100;
+  letter-spacing: -2px;
+  color: white;
+
 }
 
 .card-title a {
