@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Modern Business - Start Bootstrap Template</title>
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Open+Sans|Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="text-center collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <div class="center">
+          <li class="nav-item">
+            <a class="nav-link" href="#NB">NationBuilder</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Copywriting</a>
+          </li>
+          <li class="nav-item" style="background-color:#00704A; padding:6px 8px;">
+            <a id="contact-link" class="nav-link" href="contact.html">Get in Touch</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- Page Content -->
+  <div class="container">
+
+  <div class="row">
+    <div class="col-md-8 mt-5 content-left">
+      <h1>Get Real Greta!</h1>
+<hr />
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dolores, labore consequatur asperiores maxime natus assumenda id doloribus eveniet minus ut laborum commodi, ducimus praesentium impedit ad necessitatibus omnis unde, eaque tempore nam nesciunt soluta fugiat? Explicabo rem modi maxime accusantium dignissimos incidunt laborum aut excepturi aliquam nostrum, beatae in!
+<img src="greta.jpg" class="mt-2" alt="" style="width:100%;
+;">
+    </div>
+
+    <div class="col-md-3 content-right"  style="background-color:#333;">
+<h3 class="pt-2 mt-3 text-left">Raise your voice!</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae accusantium, a quasi nisi, officiis. Saepe dolore adipisci, autem nihil quos minus corporis suscipit quo laudantium nostrum illum, commodi cupiditate.</p>
+
+<form id="submit-to-google-sheet">
+  <div class="form-group" >
+    <input type="text" class="form-control" id="FirstName" name="firstName" placeholder="Enter First Name">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="LastName" name="lastName" placeholder="Enter Last Name">
+  </div>
+  <div class="form-group">
+    <input type="email" class="form-control" id="Email" name="email" placeholder="Enter Email">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="Address" name="postCode" placeholder="Enter Postcode">
+  </div>
+<div class="text-center">
+ <button onclick="window.location.href='http://www.google.com'" type="submit" class="btn btn-primary btn-block mb-2">Submit</button>
+</div>
+</form>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwKJMXTibqrkYSD1yaF6Bye8quYjNn3HyLW9g-PUW320T6eFqoT/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5  mt-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae deleniti similique facere ipsum eligendi neque esse ad tempora sit odio est ut rem animi, voluptatibus porro nulla odit a aspernatur. Quibusdam exercitationem quasi quis odio rem beatae facilis temporibus dolore repellat! Sunt ab at deserunt laboriosam enim facilis architecto praesentium rem, ea nemo porro atque laudantium autem commodi omnis repellendus voluptatum nulla, corporis nostrum assumenda, doloribus eveniet quidem obcaecati error ipsam! Temporibus, perferendis, iusto! Harum labore deleniti, cupiditate accusantium quos ducimus aliquam dolores aspernatur. Molestias ea vero praesentium debitis possimus aspernatur consequatur magni ducimus ut ipsum similique eligendi quibusdam iusto, iste totam aliquam asperiores nulla voluptatibus minima laudantium voluptatem repellendus voluptatum! Dolorem ad quae praesentium at incidunt distinctio nostrum dolores quas fugiat quam debitis harum, sint repudiandae eaque dolor minima voluptatem alias. Eligendi velit ipsum nemo cupiditate, animi officiis accusamus, sunt temporibus distinctio reiciendis quos dignissimos consequuntur ipsa, sapiente dolorem nam. Officia itaque cupiditate, voluptas cum. Tempore tenetur sed velit amet doloribus aperiam non provident ratione, vitae voluptatem! Nesciunt ex quisquam tempora corrupti aliquid eius, sequi aliquam, ad quis nemo, recusandae. Ad quis odio laborum esse quidem, recusandae delectus nam eos veritatis, mollitia dicta enim voluptatum omnis odit nemo magni impedit tempora cupiditate reiciendis aut est. Perspiciatis dicta, aut nulla adipisci id, culpa cupiditate illum sed et recusandae voluptate quidem similique ab nisi quaerat minima quis necessitatibus. Fugiat reiciendis eius illum. Eveniet cum vitae excepturi, fugit ipsum tempora accusamus, debitis veniam, vel architecto dolore natus eum enim nulla quis distinctio?</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

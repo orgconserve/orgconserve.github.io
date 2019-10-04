@@ -1,0 +1,137 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 56px;
+
+}
+.form-group label {
+  color:white;
+  font-size:14px;
+
+}
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.form-group input {
+  background-color: black;
+  color:white;
+  font-size:20px;
+  border:none!important;
+}
+.form-group input:focus {
+  background-color:#333;
+  color:white;
+}
+.form-group input::placeholder {
+  color:white;
+}
+
+.form-control {
+  border-radius: 3px!important;
+  border:none;
+}
+h1, h2{
+  color: #00704A;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+h3 {
+  color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.navbar-toggler {
+  border:0px!important;
+}
+.navbar-toggler:focus {
+  border:0px!important;
+}
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+  }
+}
+.center {
+  margin: 0 auto;
+}
+
+.fixed-top {
+  background-color:#A33416;
+}
+
+.nav-link {
+  color:#333!important;
+  font-weight: 500!important;
+  transition: all 0.5s;
+}
+#contact-link {
+  color:white!important;
+}
+.nav-link:hover{
+  color:#ffd203!important;
+}
+
+@media screen and (min-width: 992px){
+  .nav-link, .nav-item {
+    display: inline;
+  }
+  .fixed-top {
+    height:70px;
+  }
+}
+.card-img-top {
+  border-radius: 0px!important
+}
+#title {
+  font-family: 'Cabin Sketch', cursive;
+  font-size:4rem;
+  color: #e5e5e5;
+  letter-spacing: -3px;
+}
+
+.card-title a {
+  font-family: 'Cabin Sketch', cursive;
+  color: #333!important;
+  font-weight: 700!important;
+}
+.card-title a:hover {
+    text-decoration: none!important;
+    color:black!important;
+}
+
+
+p, h5, h5 > u {
+  font-weight: 500!important;
+  color: #e5e5e5;
+  text-decoration-color: #00704A!important;
+  transition: all 0.5s;
+  padding:1px 0;
+}
+h5 > u:hover {
+  cursor: pointer;
+  text-decoration-color: transparent!important;
+  background-color: #00704A;
+  color: #FFD200;
+}
